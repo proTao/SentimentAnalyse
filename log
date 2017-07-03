@@ -1,0 +1,65 @@
+In [21]: word2num = dic.token2id
+    ...: dataset = parseSentences2Nums(sentences, word2num)
+    ...: 
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000008
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000010
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000013
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000014
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000014/1801.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000014/1801.txt
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000016
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000020
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000020/830.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000020/603.txt
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1155.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1174.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1262.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1279.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1093.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1164.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1182.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000022/1161.txt
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000023
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000023/1461.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000023/1461.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000023/1461.txt
+too long! /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000023/1461.txt
+in /home/tao/tao/nlp_project/SogouC.reduced/Reduced/C000024
+
+In [73]: predict_one(u"距离川沙公路较近,但是公交指示不对,如果是\"蔡陆线\"的话,会非常麻烦.建议用别的路线.房间较为简单.")
+Out[73]: 1
+
+In [74]: predict_one(u"房间内环境还是不错的,就是上网有点贵,12块一个小时,还有门口修路,门前环境不好")
+Out[74]: 1
+
+In [75]: predict_one(u"早餐太差，全是素菜。另外礼宾部还弄丢了我一件行李，最后发现是被别人领走了，半天才找回来。其他都还可以。")
+Out[75]: 0
+
+In [76]: predict_one(u"1。送货慢，19号订单，20号打款，28号到货2。联保单不填写，不盖章，送来的联保单没什么用，3。没什么中文说明书，有两张纸，什么
+    ...: 文字都有，就是没发现微星的任何标识，4。没有一部可以直接打得通的电话，有一部声讯电话，打10次。10次不通。浪费消费者的钱5。电池不是原装，我
+    ...: 怀疑是水货")
+Out[76]: 0
+
+In [77]: predict_one(u"呵呵，卖家死全家，谁买谁傻逼")
+Out[77]: 0
+
+In [78]: predict_one(u"位置好找，房间干净面积大，隔音好")
+Out[78]: 1
+
+In [79]: predict_one(u"小巧轻便，竟然比我的X61还轻，做工一贯的好。屏幕比X61亮，分辨率也高。")
+Out[79]: 1
+
+In [80]: predict_one(u"外观，键盘，性能和电池都挺不错，但就是进不了系统，郁闷啊。硬盘嘎吱响，怀疑有问题。虽然楼上有人讲F9导入系统可以解决问题，但
+    ...: 验货的时候可不知道，京东的售后也没提这个方法，直接换货了，还是换个新的保险")
+Out[80]: 1
+
+In [81]: predict_one(u"特别喜欢")
+Out[81]: 1
+
+In [82]: predict_one(u"不会再买他们家的东西了")
+Out[82]: 0
+
+In [83]: predict_one(u"位置虽然比较好找，但是房间隔音一般，特别的吵。。。而且说好的红包返现，竟然要五天之后才能收到，各位可要擦亮眼睛啊！")
+Out[83]: 0
+
